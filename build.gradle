@@ -11,4 +11,7 @@ dependencies {
     testCompile 'org.slf4j:slf4j-nop:1.7.25'
 
     testCompile 'cglib:cglib-nodep:3.2.6'
+    testCompile 'com.athaydes:spock-reports:1.3.2', {
+        transitive = false
+    }
 }
